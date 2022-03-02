@@ -1,0 +1,23 @@
+body{
+    background: linear-gradient(160deg, #2e0994 10%,rgb(7, 2, 29) 50%,rgb(7, 2, 29) 25%);
+}
+
+header{
+    color: rgb(255, 253, 118);
+}
+
+.header__headline{
+    font-size: 70px;
+    padding: 30px 20vw 30px 10vw;
+    text-shadow: 7px 7px 7px #030e35;
+  
+}
+
+.header__homeA{
+    text-decoration: none;
+    color: rgb(255, 253, 118);
+}
+
+.pageContent{
+    color: rgb(255, 253, 118);
+}
