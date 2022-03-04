@@ -1,9 +1,9 @@
 import getAllPlanets from "./getAllPlanets.js";
 
-let paging = 1;
 
 
-getAllPlanets(paging);
+
+getAllPlanets();
 
 
 //console.log(paging);

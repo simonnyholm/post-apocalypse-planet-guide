@@ -1,5 +1,5 @@
-function getPlanet(sphere){
-    fetch("https://swapi.dev/api/planets")
+function getPlanet(apiPlanetID){
+    fetch("https://swapi.dev/api/planets/")
         .then(function(response){
             if (response.status !== 200){
                 document.querySelector(".planet").innerHTML = `
@@ -13,7 +13,14 @@ function getPlanet(sphere){
             return response.json()
         })
         .then(function(data){
+            
+
+            //let planet = data.results.find(element => element.url === apiPlanetID)
             let planet = data.results.find(element => element.name === sphere)
+
+
+
+
             
             if (!planet){
                 window.location.href = "/404.html"
