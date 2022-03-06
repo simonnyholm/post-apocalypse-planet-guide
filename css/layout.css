@@ -17,11 +17,13 @@
 
 .planetListArticle{
     margin: 20px 0 10px 0;
-    background-color: rgb(110, 77, 33);
+    text-shadow: 4px 4px 4px #030e35;
+   
     border-radius: 50%;
 
     width: 250px;
     height: 250px;
+    box-shadow: 19px 19px 19px #1d1d1d7c;
 
 }
 
@@ -31,19 +33,23 @@
 
 .planetListWelcomeP{
     font-size: 14px;
+    text-shadow: 1px 2px #030e35;
     padding: 40px 0 0 0;
-    height: 130px;
-    width: 130px;
-    background-color: rgb(21, 107, 10);
+    height: 128px;
+    width: 128px;
+    background-color: rgba(21, 107, 10, 0.582);
     border-radius: 50%;
+    box-shadow: 9px 9px 9px #1d1d1d7c;
 }
 
 .planetListLandscapeP{
     font-size: 14px;
+    text-shadow: 1px 2px #030e35;
     margin: 20px 0 0 0;
     padding: 50px 0 0 20px;
-    height: 130px;
-    width: 130px;
-    background-color: rgb(10, 107, 99);
+    height: 128px;
+    width: 128px;
+    background-color: rgba(10, 107, 99, 0.582);
     border-radius: 50%;
+    box-shadow: 9px 9px 9px #1d1d1d7c;
 }
