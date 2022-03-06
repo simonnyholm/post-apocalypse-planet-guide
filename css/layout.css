@@ -20,8 +20,8 @@
     background-color: rgb(110, 77, 33);
     border-radius: 50%;
 
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
 
 }
 
@@ -30,14 +30,20 @@
 }
 
 .planetListWelcomeP{
-    padding: 30px;
-    margin: 0 0 0 0;
+    font-size: 14px;
+    padding: 40px 0 0 0;
+    height: 130px;
+    width: 130px;
     background-color: rgb(21, 107, 10);
     border-radius: 50%;
 }
 
 .planetListLandscapeP{
-    padding: 30px;
+    font-size: 14px;
+    margin: 20px 0 0 0;
+    padding: 50px 0 0 20px;
+    height: 130px;
+    width: 130px;
     background-color: rgb(10, 107, 99);
     border-radius: 50%;
 }

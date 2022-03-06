@@ -21,3 +21,67 @@ header{
 .pageContent{
     color: rgb(255, 253, 118);
 }
+
+.arid{
+    background-image: url(/img/arid.jpg);
+}
+
+.windy{
+    background-image: url(/img/windy.jpg);
+}
+
+.temperate{
+    background-image: url(/img/temperate.jpg);;
+}
+
+.tropical{
+    background-image: url(/img/tropical.jpg);
+}
+
+.frozen{
+    background-image: url(/img/frozen.jpg);
+}
+
+.murky{
+    background-image: url(/img/murky.jpg);
+}
+
+.hot{
+    background-image: url(/img/hot.jpg);
+}
+
+.artificial{
+    background-image: url(/img/artificial.jpg);
+}
+
+.frigid{
+    background-image: url(/img/frozen.jpg);
+}
+
+.humid{
+    background-image: url(/img/humid.jpg);
+}
+
+.moist{
+    background-image: url(/img/moist.jpg);
+}
+
+.polluted{
+    background-image: url(/img/polluted.jpg);
+}
+
+.unknown{
+    background-image: url(/img/unknown.jpg);
+}
+
+.superheated{
+    background-image: url(/img/superheated.jpg);
+}
+
+.subartic{
+    background-image: url(/img/subartic.jpg);
+}
+
+.artic{
+    background-image: url(/img/arctic.jpg);
+}

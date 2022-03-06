@@ -17,12 +17,12 @@ function planetList(planets){
 
         console.log(apiPlanetID);
 
-    //skal det ovenstående ikke ud i det globale scope for at virke udenfor functionen?
+        //skal det ovenstående ikke ud i det globale scope for at virke udenfor functionen?
 
-    let output = `
+        let output = `
         
 
-        <article class="article planetListArticle" onclick="window.location.href='/planet.html?id=${apiPlanetID}'" >
+        <article class="article planetListArticle ${planet.climate}" onclick="window.location.href='/planet.html?id=${apiPlanetID}'" >
             <h1 class="planetListheadline1">${planet.name}</h1>
             <div class="flexDiv">
                 <p class="planetListWelcomeP">Welcome to the ${planet.climate} planet of ${planet.name}.</p> 
