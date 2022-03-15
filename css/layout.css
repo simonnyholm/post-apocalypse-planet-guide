@@ -53,3 +53,19 @@
     border-radius: 50%;
     box-shadow: 9px 9px 9px #1d1d1d7c;
 }
+
+@media screen and (min-width: 1000px){
+    .planets{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .planetListArticle{
+        margin: 40px;
+    }
+
+
+
+
+
+}
