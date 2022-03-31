@@ -30,7 +30,7 @@ function getPlanet(id){
             document.title += " - " + data.name
             let output = `
             <article class="planetArticle>
-                <section class="planetWelcomeSection">
+                <section class="planetWelcomeSection ${data.terrain}">
                     
                         <h1 class="planetH1">${data.name}</h1>
                         <p class="planetP">We welcome you to the ${data.climate} planet known among Earthlings by the name of ${data.name}.</p>
@@ -41,7 +41,7 @@ function getPlanet(id){
                     <h2 class="planetH2">Nature</h2>
                     <div class="flexDiv">
                         <p class="planetP">${data.name} is famous for its glorius landscapes with features of ${data.terrain} and numerous possibilities of great endavours and misfortunes.</p>
-                        <p class="planetP">About ${data.surface_water} percent of ${data.name}'s surface is covered with water, so dress accordingly.</p>
+                        <p class="planetP2">About ${data.surface_water} percent of ${data.name}'s surface is covered with water, so dress accordingly.</p>
                     </div>
                 </section>
 
@@ -49,7 +49,7 @@ function getPlanet(id){
                     <h2 class="planetH2">Physics</h2>
                     <div class="flexDiv">
                         <p class="planetP">On ${data.name}, a day is completed within ${data.rotation_period} full Earthling hours, and a year consists of ${data.orbital_period} Earth days.</p>
-                        <p class="planetP"> ${data.name} has a diameter of ${data.diameter} earth miles, and the planet's gravitation is ${data.gravity} GrU, compared with Earth's 1 GrU.</p>
+                        <p class="planetP2"> ${data.name} has a diameter of ${data.diameter} earth miles, and the planet's gravitation is ${data.gravity} GrU, compared with Earth's 1 GrU.</p>
                     </div>
                 </section>
 
@@ -62,7 +62,7 @@ function getPlanet(id){
                     <h2 class="planetH2">Perspective</h2>
                     <div class="flexDiv">
                         <p class="planetP"> Note that ${data.name} is a fictional planet, hence any form of colonization or even a weekend trip is a mere burp of hopeful imagination.</p>
-                        <p class="planetP">So good luck being stuck on desolate earth, suckers!</p>
+                        <p class="planetP2">So good luck being stuck on desolate earth, suckers!</p>
                     </div>
                 </section>
                

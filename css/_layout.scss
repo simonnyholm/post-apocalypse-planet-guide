@@ -1,0 +1,107 @@
+#paging{
+    padding: $pagekeyLayout;
+}
+
+#searchForm{
+    padding: $pagekeyLayout;
+}
+
+.header__headline{
+    margin: 0;
+  
+}
+
+.pageContent{
+    padding: 30px 10vw 30px 10vw;
+}
+
+.planetListArticle{
+    margin: $listArticleMargin;
+    text-shadow: $listArticleTextShadow;
+   
+    border-radius: 50%;
+
+    @include circleElement($dia:250px);
+    box-shadow: $listArticleBoxShadow;
+    cursor: pointer;
+
+}
+
+.flexDiv{
+    display: flex;
+}
+
+.planetListWelcomeP{
+    font-size: $listPFontSize;
+    text-shadow: $listPTextShadow;
+    padding: 40px 0 0 0;
+    @include circleElement($dia:128px);
+    background-color: $listPBGcolor;
+    border-radius: 50%;
+    box-shadow: $listPBoxShadow;
+}
+
+.planetListLandscapeP{
+    font-size: 14px;
+    text-shadow: $listPTextShadow;
+    margin: 20px 0 0 0;
+    padding: 50px 0 0 20px;
+    @include circleElement($dia:128px);
+    background-color: $listPsecBGcolor;
+    border-radius: 50%;
+    box-shadow: $listPBoxShadow;
+}
+
+.planetWelcomeSection, .planetNatureSection, .planetPhysicsSection, .planetNativeSection, .planetPerspectiveSection{
+    margin: $listArticleMargin;
+    text-shadow: $listArticleTextShadow;
+   
+    border-radius: 50%;
+
+    @include circleElement($dia:250px);
+    box-shadow: $listArticleBoxShadow;
+}
+
+.planetP{
+    font-size: $listPFontSize;
+    text-shadow: $listPTextShadow;
+    padding: 40px 0 0 0;
+    @include circleElement($dia:128px);
+    background-color: $listPBGcolor;
+    border-radius: 50%;
+    box-shadow: $listPBoxShadow;
+}
+
+.planetP2{
+    font-size: 14px;
+    text-shadow: $listPTextShadow;
+    margin: 20px 0 0 0;
+    padding: 50px 0 0 20px;
+    @include circleElement($dia:128px);
+    background-color: $listPsecBGcolor;
+    border-radius: 50%;
+    box-shadow: $listPBoxShadow;
+}
+
+
+
+@media screen and (min-width: 1000px){
+    .planets{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .planetArticle{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .planetListArticle{
+        margin: 40px;
+    }
+
+
+
+
+
+}

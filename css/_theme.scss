@@ -1,9 +1,11 @@
+$main-text-color: rgb(255, 253, 118);
+
 body{
     background: linear-gradient(160deg, #2e0994 10%,rgb(7, 2, 29) 50%,rgb(7, 2, 29) 25%);
 }
 
 header{
-    color: rgb(255, 253, 118);
+    color: $main-text-color;
 }
 
 .header__headline{
@@ -15,11 +17,11 @@ header{
 
 .header__homeA{
     text-decoration: none;
-    color: rgb(255, 253, 118);
+    color: $main-text-color;
 }
 
 .pageContent{
-    color: rgb(255, 253, 118);
+    color: $main-text-color;
 }
 
 .arid{
@@ -85,3 +87,108 @@ header{
 .artic{
     background-image: url(/img/arctic.jpg);
 }
+
+.desert{
+
+}
+
+.deserts{
+
+}
+
+.ranges{
+
+}
+
+.mountains{
+
+}
+
+.jungle{
+
+}
+
+.jungles{
+
+}
+
+.rainforests{
+
+}
+
+.tundra{
+
+}
+
+.caves{
+
+}
+
+.swamp{
+
+}
+
+.swamps{
+
+}
+
+.bogs{
+
+}
+
+.giant{
+
+}
+
+.lakes{
+
+}
+
+.barren{
+
+}
+
+.sinkholes{
+
+}
+
+.rivers{
+
+}
+
+.astroid{
+
+}
+
+.canyons{
+
+}
+
+.arches{
+
+}
+
+.volcanoes{
+
+}
+
+.grass{
+
+}
+
+.grasslands{
+
+}
+
+.cityscape{
+
+}
+
+.oceans{
+
+}
+
+.mesas{
+
+}
+
