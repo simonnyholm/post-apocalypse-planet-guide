@@ -16,16 +16,16 @@
     <header>
         <h1 class="header__headline">
             <a class="header__homeA" href="/">
-                Where to go after the apocalypse?
+                Where to go to after the apocalypse?
             </a>
         </h1>
         <nav class="navigation">
-            <ul class=navigation__menu">
+            <ul class="navigation__menu">
                 <li class="navigation__menuItem">
                     <a class="navigation__menuLink" href="/">Home</a>
                 </li>
                 <li class="navigation__menuItem">
-                    <a class="navigation__menuLink" href="return.html">Return?</a>
+                    <a class="navigation__menuLink" href="/return.html">Return?</a>
                 </li>
             </ul>
         </nav>
@@ -33,21 +33,38 @@
             <input type="search" name="keyword" id="searchInput">
             <input type="button" value="Search the Universe" id="searchBtn">
         </form>
+        <nav id="paging">
+            <a href="?page=2" class="prev">Previous</a>
+            <span class="pageLinks">
+                <a href="?page=1">1</a>
+                <a href="?page=2">2</a>
+                <a href="?page=3">3</a>
+                <a href="?page=4">4</a>
+                <a href="?page=5">5</a>
+                <a href="?page=6">6</a>
+                
+            </span>
+            <a href="?page=2" class="next">Next</a>
+        </nav>
     </header>
     <main class="pageContent">
-        <section class="404Message">
-            <h1>An error on your endavour</h1>
-            Unfortunately, an error ocurred. Please try another option!
+        <section class="planet">
+            <section class="planetPerspectiveSection unknown">
+                <h2 class="planetH2">Return?</h2>
+                <div class="flexDiv">
+                    <p class="planetP">There is no safe return. I'm sorry.</p>
+                    <p class="planetP2">So good luck being stuck in your imagination!</p>
+                </div>
+            </section>
         </section>
 
-        <section class="planets"></section>
-
-
-
     </main>
+
 
 
     <script src="/app.js" type="module"></script>
 </body>
 
 </html>
+
+<!--Når vi bruger Git: 1) stage 2) commit 3) push-->
