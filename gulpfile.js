@@ -22,6 +22,7 @@ function css() {
 
 function buildCss() {
     return gulp.src("src/css/*.scss")
+        .pipe(sass().on("error", sass.logError))
         .pipe(gulp.dest("build/css"))
 }
 
